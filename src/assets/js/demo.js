@@ -12,11 +12,6 @@ export const getSize = function() {
     cvs.setAttribute("height", app.offsetHeight)
 }
 
-// canvas的宽高和外包层app的一致
-// function getSize() {
-
-// }
-
 //  检查canvas兼容性
 function canvasSupport(e) {
     return !!e.getContext;
